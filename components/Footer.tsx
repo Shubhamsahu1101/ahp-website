@@ -1,14 +1,14 @@
-import { CONTACT_INFO } from '@/data'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import apple_logo from '../public/apple_logo.png'
 
 const Footer = () => {
   return (
     <footer className="flexCenter mb-12">
       <div className="padding-container max-container flex w-full flex-col gap-12">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
-          <Image src="/apple_logo.png" alt="logo" width={74} height={29} className='mb-4' />
+          <Image src={apple_logo} alt="logo" width={74} height={29} className='mb-4' />
 
           <div className='flex flex-wrap gap-10 sm:justify-evenly md:flex-1'>
 
