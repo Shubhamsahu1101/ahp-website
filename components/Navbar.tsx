@@ -10,15 +10,18 @@ const navbar = () => {
             <Image src={apple_logo} alt='logo' width={74} height={29} />
         </Link>
         <ul className='hidden h-full gap-16 lg:flex'>
-            <Link href={'/'} key={'home'} className='regular-18 text-gray-50 flex-center cursor-pointer font-bold hover:text-black'>
+            <p className='regular-18 text-gray-50 flex-center cursor-pointer font-bold'>
                 Home
-            </Link>
-            <Link href={'/'} key={'location'} className='regular-18 text-gray-50 flex-center cursor-pointer font-bold hover:text-black'>
+            </p>
+            <p className='regular-18 text-gray-50 flex-center cursor-pointer font-bold'>
+                Products
+            </p>
+            <p className='regular-18 text-gray-50 flex-center cursor-pointer font-bold'>
                 Location
-            </Link>
-            <a href={'/'} key={'contact_us'} className='regular-18 text-gray-50 flex-center cursor-pointer font-bold hover:text-black'>
+            </p>
+            <p className='regular-18 text-gray-50 flex-center cursor-pointer font-bold'>
                 Contact Us
-            </a>
+            </p>
         </ul>
     </nav>
   )
