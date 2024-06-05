@@ -8,11 +8,11 @@ import product_whitefc_1l from '../public/product_whitefc_1l.png'
 const Products = () => {
 
     return (
-        <section className="py-16">
+        <section className="py-16 lg:mx-10">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
                 Our Products
             </h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full py-10 lg:py-20 px-10'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 w-full py-10 lg:py-20 justify-evenly gap-8 xl:gap-0'>
 
                 <div className='h-[500px] w-[300px] bg-slate-100 rounded-xl items-center justify-evenly flex-col shadow-md mx-auto'>
                     <Image src={product_greendw_1kg} alt='dishwash' height={400} width={250} className='mx-auto' />
