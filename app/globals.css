@@ -13,7 +13,23 @@
 body {
   font-family: Inter;
 }
+::-webkit-scrollbar {
+  width:10px;
+}
 
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 @layer utilities {
   .btn_white { 
     @apply  border-white bg-white px-8 py-3 text-green-50 hover:bg-green-100
