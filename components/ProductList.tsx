@@ -1,47 +1,59 @@
 import React from 'react'
+import Button from './Button'
+import call_svg from '../public/call.svg'
 
 
 const ProductList = () => {
 
     return (
-        <section className="py-16 lg:mx-10">
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
-                All Products
-            </h2>
-            <p className="regular-16 mt-4 text-gray-30 text-center">
-                Contact for Bulk Enquiry.
-            </p>
-            <div className='grid grid-cols-1 lg:grid-cols-2 w-full py-10 lg:py-20 justify-evenly gap-8 xl:gap-0'>
-
-                <div className='h-[520px] w-[300px] sm:w-[400px] rounded-xl items-center justify-evenly flex-col shadow-md mx-auto'>
-                    <div className='mx-8 my-8 text-center flex flex-col gap-4'>
-                        <h1 className='text-2xl sm:text-3xl font-bold'>General Cleaning</h1>
-
-                        <p className='text-2xl sm:text-3xl'>Dish Wash</p>
-                        <p className='text-2xl sm:text-3xl'>Hand Wash</p>
-                        <p className='text-2xl sm:text-3xl'>Phenyl</p>
-                        <p className='text-2xl sm:text-3xl'>Glass Cleaner</p>
-                        <p className='text-2xl sm:text-3xl'>Sanitizer</p>
-                        <p className='text-2xl sm:text-3xl'>Toiler Cleaner</p>
-                        <p className='text-2xl sm:text-3xl'>Micro Fiber Cloth</p>
+        <section className="bg-slate-200">
+            <div className='py-16 lg:mx-10'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 w-full py-10 lg:py-20 justify-evenly gap-8 xl:gap-12 px-8'>
+                    <div className='w-full rounded-xl flexCenter flex-col shadow-md mx-auto bg-gray-800 p-4'>
+                        <h2 className="text-3xl font-extrabold text-white sm:text-4xl text-center py-4 pt-8">
+                            Why Choose Us?
+                        </h2>
+                        <p className="text-xl text-gray-200 text-center">
+                            Quality at Wholesale Price.
+                        </p>
+                        <div className="lg:flex flex-col sm:flex-row max-w-[250px] gap-4 rounded-3xl bg-gray-600 px-8 py-6 my-4 pb-8 lg:my-12 lg:mx-auto">
+                            <div className="flex flex-col">
+                                <p className="regular-16 text-gray-200 mb-2 ml-2">Call Now?</p>
+                                <Button type="button" title="8329976101" icon={call_svg} variant="btn_white" link='tel:8329976101' />
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div className='h-[520px] w-[300px] sm:w-[400px] rounded-xl items-center justify-evenly flex-col shadow-md mx-auto'>
-                    <div className='mx-8 my-8 text-center flex flex-col gap-4'>
-                        <h1 className='text-2xl sm:text-3xl font-bold'>Car Cleaning</h1>
+                    <div className='h-[450] w-full rounded-xl flexBetween flex-col shadow-md mx-auto bg-white'>
+                        <div className='mx-8 my-8 text-center flex flex-col gap-2 sm:gap-4'>
+                            <h1 className='text-2xl sm:text-3xl font-bold text-gray-800'>General Cleaning</h1>
 
-                        <p className='text-2xl sm:text-3xl'>Car Wash</p>
-                        <p className='text-2xl sm:text-3xl'>Tyre Polish</p>
-                        <p className='text-2xl sm:text-3xl'>Dashboard Polish</p>
-                        <p className='text-2xl sm:text-3xl'>Car Perfumes</p>
-                        <p className='text-2xl sm:text-3xl'>Glass Cleaner</p>
-                        <p className='text-2xl sm:text-3xl'>Footmat</p>
-                        <p className='text-2xl sm:text-3xl'>Polish Sponge</p>
-                        <p className='text-2xl sm:text-3xl'>Micro Fiber Cloth</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Dish Wash</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Hand Wash</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Phenyl</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Glass Cleaner</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Sanitizer</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Toiler Cleaner</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Micro Fiber Cloth</p>
+                        </div>
                     </div>
-                </div>
 
+                    <div className='h-[450] w-full rounded-xl flexBetween flex-col shadow-md mx-auto bg-white'>
+                        <div className='mx-8 my-8 text-center flex flex-col gap-2 sm:gap-4'>
+                            <h1 className='text-2xl sm:text-3xl font-bold text-gray-800'>Car Cleaning</h1>
+
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Car Wash</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Tyre Polish</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Dashboard Polish</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Car Perfumes</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Glass Cleaner</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Footmat</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Polish Sponge</p>
+                            <p className='text-2xl sm:text-3xl text-gray-30'>Micro Fiber Cloth</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
     )

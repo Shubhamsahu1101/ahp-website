@@ -14,19 +14,25 @@ const Footer = () => {
 
             <div className="flex flex-col gap-5">
               <FooterColumn title={'Timings'}>
-                <Link href="/" key={'owner'} className="flex gap-4 md:flex-col lg:flex-row" >
-                  <p className="medium-14 whitespace-nowrap text-blue-70"> {'9:30AM - 6:00PM'} </p>
-                  <p className="medium-14 whitespace-nowrap text-red-500"> {'Thursday Closed'} </p>
-                </Link>
+                <div className="flex gap-4 flex-row items-center" >
+                  <p className="medium-14 whitespace-nowrap text-blue-70"> 9:30AM - 6:00PM </p>
+                </div>
+                <div className="flex gap-4 flex-row items-center" >
+                  <p className="medium-14 whitespace-nowrap text-red-500"> Thursday Closed</p>
+                </div>
               </FooterColumn>
             </div>
 
             <div className="flex flex-col gap-5">
               <FooterColumn title={'Contact Info'}>
-                <Link href="/" key={'owner'} className="flex gap-4 md:flex-col lg:flex-row" >
-                  <p className="whitespace-nowrap"> {'Owner'}: </p>
-                  <p className="medium-14 whitespace-nowrap text-blue-70"> {'8329976101'} </p>
-                </Link>
+                <div className="flex gap-4 flex-row items-center" >
+                  <p className="whitespace-nowrap"> Phone: </p>
+                  <p className="medium-14 whitespace-nowrap text-blue-70"> 8329976101</p>
+                </div>
+                <div className="flex gap-4 flex-row items-center" >
+                  <p className="whitespace-nowrap"> Mail: </p>
+                  <p className="medium-14 whitespace-nowrap text-blue-70"> applehygieneproducts@gmail.com</p>
+                </div>
               </FooterColumn>
             </div>
 

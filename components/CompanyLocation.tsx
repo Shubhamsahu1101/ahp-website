@@ -6,8 +6,8 @@ import maps_svg from '../public/maps.svg'
 
 const CompanyLocation = () => {
   return (
-    <section className="flexCenter paddingContainer w-full flex-col pb-32">
-      <div className="max-container relative flex w-full flex-col justify-between gap-16 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white md:flex-row md:gap-12 md:py-24 lg:px-20 xl:max-h-[698px] xl:rounded-5xl">
+    <section className="pb-32">
+      <div className="w-full relative flex flex-col justify-between gap-16 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white md:flex-row md:gap-12 md:py-24 lg:px-20 xl:max-h-[698px]">
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">Company Location</h2>
           <div>

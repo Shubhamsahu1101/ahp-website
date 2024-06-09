@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import star_image from '../public/star.svg'
-import product_main_image from '../public/ahp_main_image.png'
+import hero_image from '../public/hero_image.png'
 import Button from './Button'
 import maps_svg from '../public/maps.svg'
 import call_svg from '../public/call.svg'
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container">
-      <div className='flex flex-col-reverse gap-10 pb-20 md:gap-28 lg:py-20 xl:flex-row'>
+    <section className='pb-20'>
+      <div className=' max-container padding-container flex flex-col-reverse gap-10 md:gap-28 lg:py-20 xl:flex-row'>
 
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 text-center">
 
@@ -17,7 +17,7 @@ const Hero = () => {
             Cleaning products manufacturer in Pune.
           </p>
           <p className="regular-16 mt-4 text-gray-30 xl:max-w-[520px]">
-            Bulk orders accepted.
+            Contact Now! for Bulk Enquiry.
           </p>
 
           <div className="my-8 flex flex-wrap gap-5 items-center justify-center">
@@ -35,11 +35,11 @@ const Hero = () => {
 
         </div>
         <div>
-          <Image src={product_main_image} alt='main_products' height={700} width={700} className='mx-auto' />
+          <Image src={hero_image} alt='main_products' height={600} width={600} className='mx-auto' />
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row w-min gap-4 rounded-3xl bg-green-90 px-8 py-6 my-16 mx-auto">
+      <div className="sm:hidden flex flex-col sm:flex-row w-min gap-4 rounded-3xl bg-green-90 px-8 py-6 my-16 mx-auto">
 
         <div className="flex flex-col">
           <p className="regular-16 text-gray-20 mb-2 ml-2">Contact Us</p>

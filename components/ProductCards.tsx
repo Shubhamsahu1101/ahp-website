@@ -1,52 +1,53 @@
 import React from 'react'
 import Image from 'next/image'
-import product_greendw_1kg from '../public/product_greendw_1kg.png'
-import product_orangehw_1kg from '../public/product_orangehw_1kg.png'
-import product_pinkhw_1kg from '../public/product_pinkhw_1kg.png'
-import product_whitefc_1l from '../public/product_whitefc_1l.png'
+import dw_1kg from '../public/dw_1kg.png'
+import hw_1kg from '../public/hw_1kg.png'
+import fc_1kg from '../public/fc_1kg.png'
 
 const ProductCards = () => {
 
     return (
-        <section className="py-16 lg:mx-10">
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
-                Featured Products
-            </h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 w-full pt-10 lg:pt-20 justify-evenly gap-8 xl:gap-0'>
+        <section className="bg-slate-100">
+            <div className='py-16 lg:mx-10'>
+                <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
+                    Our Bestselling
+                </h2>
+                <p className="regular-16 mt-4 text-gray-30 text-center">
+                    Contact Now! for Bulk Enquiry.
+                </p>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full py-10 lg:py-20 justify-evenly gap-8 xl:gap-12 px-8'>
 
-                <div className='h-[480px] w-[300px] rounded-xl items-center justify-evenly flex-col shadow-md mx-auto'>
-                    <Image src={product_greendw_1kg} alt='dishwash' height={400} width={250} className='mx-auto' />
-                    <div className='mx-8 my-8 text-center'>
-                        <h1 className='text-xl font-bold'>DishWash Gel</h1>
-                        <p className='text-lg'>1kg | 5kg | Bulk</p>
+                    <div className='w-[250px] sm:w-full rounded-xl flexCenter flex-col shadow-md mx-auto bg-white'>
+                        <div>
+                            <Image src={dw_1kg} alt='dishwash' height={400} width={320} className='mx-auto mt-4' />
+                        </div>
+                        <div className='mx-8 my-4 sm:my-8 text-center'>
+                            <h1 className='text-xl sm:text-2xl font-bold'>Dish Wash</h1>
+                            <p className='text-md sm:text-lg'>1kg | 5kg | Bulk</p>
+                        </div>
                     </div>
-                </div>
 
-                <div className='h-[480px] w-[300px] rounded-xl items-center justify-evenly flex-col shadow-md mx-auto'>
-                    <Image src={product_orangehw_1kg} alt='dishwash' height={400} width={250} className='mx-auto' />
-                    <div className='mx-8 my-8 text-center'>
-                        <h1 className='text-xl font-bold'>Sandal Wash Gel</h1>
-                        <p className='text-lg'>1kg | 5kg | Bulk</p>
+                    <div className='w-[250px] sm:w-full rounded-xl flexCenter flex-col shadow-md mx-auto bg-white'>
+                        <div>
+                            <Image src={hw_1kg} alt='dishwash' height={400} width={320} className='mx-auto mt-4' />
+                        </div>
+                        <div className='mx-8 my-4 sm:my-8 text-center'>
+                            <h1 className='text-xl sm:text-2xl font-bold'>Hand Wash</h1>
+                            <p className='text-md sm:text-lg'>1kg | 5kg | Bulk</p>
+                        </div>
                     </div>
-                </div>
 
-                <div className='h-[480px] w-[300px] rounded-xl items-center justify-evenly flex-col shadow-md mx-auto'>
-                    <Image src={product_pinkhw_1kg} alt='dishwash' height={400} width={250} className='mx-auto' />
-                    <div className='mx-8 my-8 text-center'>
-                        <h1 className='text-xl font-bold'>Rose Wash Gel</h1>
-                        <p className='text-lg'>1kg | 5kg | Bulk</p>
+                    <div className='w-[250px] sm:w-full rounded-xl flexCenter flex-col shadow-md mx-auto bg-white'>
+                        <div>
+                            <Image src={fc_1kg} alt='dishwash' height={400} width={320} className='mx-auto mt-4' />
+                        </div>
+                        <div className='mx-8 my-4 sm:my-8 text-center'>
+                            <h1 className='text-xl sm:text-2xl font-bold'>Floor Cleaners</h1>
+                            <p className='text-md sm:text-lg'>1kg | 5kg | Bulk</p>
+                        </div>
                     </div>
+
                 </div>
-
-
-                <div className='h-[480px] w-[300px] rounded-xl items-center justify-evenly flex-col shadow-md mx-auto'>
-                    <Image src={product_whitefc_1l} alt='dishwash' height={400} width={250} className='mx-auto' />
-                    <div className='mx-8 my-8 text-center'>
-                        <h1 className='text-xl font-bold'>Floor Cleaner</h1>
-                        <p className='text-lg'>1kg | 5kg | Bulk</p>
-                    </div>
-                </div>
-
             </div>
         </section>
     )
