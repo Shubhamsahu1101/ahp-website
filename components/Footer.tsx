@@ -5,7 +5,7 @@ import apple_logo from '../public/apple_logo.png'
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-12">
+    <footer className="flexCenter py-10 lg:py-20">
       <div className="padding-container max-container flex w-full flex-col gap-12">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Image src={apple_logo} alt="logo" width={74} height={29} className='mb-4' />
