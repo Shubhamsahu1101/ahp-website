@@ -13,11 +13,11 @@ const ProductCards = () => {
                     Top Products
                 </h2>
                 <p className="regular-18 mt-4 text-gray-30 text-center">
-                    At wholesale price for bulk buyers.
+                    At wholesale prices.
                 </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full py-10 lg:py-20 justify-evenly gap-8 xl:gap-12 px-8'>
 
-                    <div className='w-[250px] sm:w-full rounded-3xl flexCenter flex-col shadow-md mx-auto bg-white p-4'>
+                    <div className='w-[250px] lg:w-full rounded-3xl flexCenter flex-col shadow-md mx-auto bg-white p-4'>
 
                         <Image src={dw_1kg} alt='dishwash' height={400} width={320} className='mx-auto mt-8' />
 
@@ -27,7 +27,7 @@ const ProductCards = () => {
                         </div>
                     </div>
 
-                    <div className='w-[250px] sm:w-full rounded-3xl flexCenter flex-col shadow-md mx-auto bg-white p-4'>
+                    <div className='w-[250px] lg:w-full rounded-3xl flexCenter flex-col shadow-md mx-auto bg-white p-4'>
 
                         <Image src={hw_1kg} alt='dishwash' height={400} width={320} className='mx-auto mt-8' />
 
@@ -37,7 +37,7 @@ const ProductCards = () => {
                         </div>
                     </div>
 
-                    <div className='w-[250px] sm:w-full rounded-3xl flexCenter flex-col shadow-md mx-auto bg-white p-4'>
+                    <div className='w-[250px] lg:w-full rounded-3xl flexCenter flex-col shadow-md mx-auto bg-white p-4'>
 
                         <Image src={fc_1kg} alt='dishwash' height={400} width={320} className='mx-auto mt-8' />
 
