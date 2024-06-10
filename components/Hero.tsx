@@ -13,14 +13,14 @@ const Hero = () => {
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 items-center px-4">
 
           <h1 className="bold-52 xl:bold-88 text-center">Apple Hygiene Products</h1>
-          <p className="regular-18 mt-4 text-gray-30 xl:max-w-[520px] align-middle">
+          <p className="regular-18 mt-4 text-gray-30 xl:max-w-[520px] text-center">
             Cleaning products manufacturer in Pune.
           </p>
-          <p className="regular-18 mt-4 text-gray-30 xl:max-w-[520px]">
+          <p className="regular-18 mt-4 text-gray-30 xl:max-w-[520px] text-center">
             Contact Now! for Bulk Enquiry.
           </p>
 
-          <div className="my-8 flex flex-wrap gap-5 items-center justify-center">
+          <div className="my-8 flex flex-wrap gap-5 items-center text-center justify-center">
             <div className="flex items-center gap-2">
               {Array(5).fill(1).map((_, index) => (
                 <Image src={star_image} key={index} alt="star" width={24} height={24} />
