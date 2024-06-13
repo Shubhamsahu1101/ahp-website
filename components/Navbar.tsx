@@ -16,14 +16,14 @@ const navbar = () => {
                 </Link>
             </div>
 
-            <div className='hidden h-full gap-16 lg:flex'>
+            {/* <div className='hidden h-full gap-16 lg:flex'>
                 <p className='regular-18 text-gray-50 flex-center cursor-pointer font-bold'>
                     Home
                 </p>
                 <p className='regular-18 text-gray-50 flex-center cursor-pointer font-bold'>
                     About
                 </p>
-            </div>
+            </div> */}
 
             <div className="flex flex-col sm:flex-row gap-4 rounded-3xl">
 
